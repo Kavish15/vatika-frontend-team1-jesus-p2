@@ -10,6 +10,7 @@ function Payment({ coin }) {
 
   const handlePayment = async () => {
     try {
+      localStorage.removeItem("cart");
       const response = await axios.post(process.env.REACT_APP_ORDERS, {
         amount: grandTotal.total + 30 - coin,
       });
@@ -39,7 +40,7 @@ function Payment({ coin }) {
           console.log(error);
         }
         console.log("hello world");
-        window.location.href = '/confirmation'
+        window.location.href = "/confirmation";
       },
       theme: {
         color: "green",

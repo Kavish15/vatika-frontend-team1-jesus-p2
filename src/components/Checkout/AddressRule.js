@@ -108,7 +108,8 @@ export const pincodeRule = [
     whitespace: true,
   },
   {
+    min: 6,
     max: 6,
-    message: "Pincode must be under 6 Digit",
+    message: "Pincode must of 6 Digit",
   },
 ];
