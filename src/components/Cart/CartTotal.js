@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 
 function CartTotal({ cart, total }) {
   const grandTotal = useSelector((state) => state.cartTotal);
+  const login = useSelector((state) => state.login);
+
+  function checkLogin() {
+    if (!login.isLogin) alert("Please Login");
+  }
 
   return (
     <div>
@@ -32,7 +37,7 @@ function CartTotal({ cart, total }) {
       ) : (
         <>
           <Link to="/payment">
-            <button className="checkout" onClick={() => alert("Please Login")}>
+            <button className="checkout" onClick={checkLogin}>
               Process to Checkout
             </button>
           </Link>
