@@ -1,7 +1,7 @@
 import { ActionTypes } from "../constants/ActionTypes";
 
 const initialLogIn={
-    isLogin:localStorage.getItem("token").length>200?true:false
+    isLogin:localStorage.getItem("token")?true:false
 }
 
 export const loginReducer = (state =initialLogIn, { type, payload }) => {
