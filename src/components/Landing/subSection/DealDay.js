@@ -34,10 +34,10 @@ function DealDay() {
         </div>
         <div className="right-plant r-2">
           <img
-            src="https://res.cloudinary.com/ds4gbbc6g/image/upload/v1665863256/Vatika/React%20FrontEnd/plant-1_akbp5s.png"
+            src="https://res.cloudinary.com/ds4gbbc6g/image/upload/v1663963676/Vatika/Garden/garden_plant_2_forcff.png"
             alt="DealPlant1"
           />
-          <h3>Money Plant</h3>
+          <h3>Blossom Leaf</h3>
           <Rate
             defaultValue="4"
             disabled="false"
@@ -53,7 +53,7 @@ function DealDay() {
             src="https://res.cloudinary.com/ds4gbbc6g/image/upload/v1663964299/Vatika/Garden/garden_plant_13_jtzhpp.png"
             alt="DealPlant1"
           />
-          <h3>Money Plant</h3>
+          <h3>Ring Plant</h3>
           <Rate
             defaultValue="4"
             disabled="false"
@@ -70,7 +70,7 @@ function DealDay() {
             src="https://res.cloudinary.com/ds4gbbc6g/image/upload/v1663964359/Vatika/Garden/garden_plant_14_l4j38f.png"
             alt="DealPlant1"
           />
-          <h3>Money Plant</h3>
+          <h3>Bleading Heart</h3>
           <Rate
             defaultValue="4"
             disabled="false"
@@ -87,7 +87,7 @@ function DealDay() {
             src="https://res.cloudinary.com/ds4gbbc6g/image/upload/v1663964017/Vatika/Garden/garden_plant_8_fvhn9b.png"
             alt="DealPlant1"
           />
-          <h3>Money Plant</h3>
+          <h3>Raw Sin</h3>
           <Rate
             defaultValue="4"
             disabled="false"
@@ -104,7 +104,7 @@ function DealDay() {
             src="https://res.cloudinary.com/ds4gbbc6g/image/upload/v1663963732/Vatika/Garden/garden_plant_3_ofw8ob.png"
             alt="DealPlant1"
           />
-          <h3>Money Plant</h3>
+          <h3>Sewanti</h3>
           <Rate
             defaultValue="4"
             disabled="false"
