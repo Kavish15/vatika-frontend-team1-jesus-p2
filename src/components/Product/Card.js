@@ -88,7 +88,10 @@ function Card() {
           />
         </>
       ) : (
+        <>
         <Spin className="spin" indicator={antIcon} />
+        <div className="spinText">We Plant Relation</div>
+        </>
       )}
     </>
   );

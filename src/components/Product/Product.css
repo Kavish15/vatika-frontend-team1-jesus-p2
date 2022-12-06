@@ -227,3 +227,11 @@
     grid-gap: 1rem 1rem;
   }
 }
+
+.spinText {
+  font-family: "Bad Script", cursive;
+  font-size: 20px;
+  color: #208854;
+  margin-left: 460px;
+  font-weight: 600;
+}
